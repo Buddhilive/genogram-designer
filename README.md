@@ -1,3 +1,5 @@
+> This repo is a clone from [Open Pedigree](https://github.com/phenotips/open-pedigree).
+
 <p align="center">
   <img src="https://repository-images.githubusercontent.com/212736090/2759df80-fe9e-11e9-8fa0-8237e35cbaf7" width="400px" alt="Open Pedigree logo"/>
 </p>
