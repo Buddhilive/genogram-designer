@@ -32,7 +32,7 @@ html, body, div, span, applet, object, iframe,
 /* --------------------------------------------------------------
   * Sets the styles for standard HTML elements
 -------------------------------------------------------------- */
-#body {
+#genogram-canvas {
   background-color: #F5F5F5;
   color: #636B75;
   font-family: sans-serif;
@@ -519,15 +519,15 @@ panel-right-width-Medium .editor .alleditcontent {
   margin-right: 325px;
 }
 
-#body.hideleft #contentcolumn .main {
+#genogram-canvas.hideleft #contentcolumn .main {
   margin-left: 0;
 }
 
-#body.hideright #contentcolumn .main {
+#genogram-canvas.hideright #contentcolumn .main {
   margin-right: 0;
 }
 
-#body.hidelefthideright #contentcolumn .main {
+#genogram-canvas.hidelefthideright #contentcolumn .main {
   margin: 0;
 }
 
@@ -766,11 +766,11 @@ div.buttonwrapper {
   text-transform: uppercase;
 }
 
-#body.hideleft #footerglobal{
+#genogram-canvas.hideleft #footerglobal{
   margin: 0 225px 0 0;
 }
 
-#body.hideright #footerglobal {
+#genogram-canvas.hideright #footerglobal {
   margin: 0 0 0 225px;
 }
 
@@ -896,14 +896,14 @@ iframe.mceEditorIframe, .mceEditor {
   width: 100%;
 }
 
-#body.mceContentBody {
+#genogram-canvas.mceContentBody {
   background: #FFFFFF;
   min-width: 100px;
 }
 
 /* ----------------New WYSYWYG Editor--------------------*/
 /* Should be in RichTextArea.css - for table resizing */
-#body.main table {
+#genogram-canvas.main table {
   margin: 0;
 }
 
@@ -932,7 +932,7 @@ iframe.mceEditorIframe, .mceEditor {
 
 /* ----------------Objects Editor------------------------*/
 /* Should be in dataeditors.css - added dt, div */
-#body #xwikiobjects dt label, #body #xwikiclassproperties dt label {
+#genogram-canvas #xwikiobjects dt label, #genogram-canvas #xwikiclassproperties dt label {
   color: #2173AF;
   font-size: 1.1em;
   font-weight: 400;
@@ -2345,7 +2345,7 @@ input#tags {
 -------------------------------------------------------------- */
 
 /* -------------SmartClient tree overrides---------------*/
-#body .listGrid {
+#genogram-canvas .listGrid {
   border: none;
 }
 #XWEWrapper {

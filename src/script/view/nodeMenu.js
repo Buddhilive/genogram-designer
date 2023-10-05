@@ -29,7 +29,7 @@ import AgeCalc from 'pedigree/view/ageCalc';
  */
 var NodeMenu = Class.create({
   initialize : function(data, tabs, otherCSSClass) {
-    this.canvas = editor.getWorkspace().canvas || $('body');
+    this.canvas = editor.getWorkspace().canvas || $('genogram-canvas');
     var cssClass = 'menu-box';
     if (otherCSSClass) {
       cssClass += ' ' + otherCSSClass;
@@ -135,7 +135,7 @@ var NodeMenu = Class.create({
           enableHierarchy: false,
           fadeOnClear : false,
           timeout : 30000,
-          parentContainer : $('body')
+          parentContainer : $('genogram-canvas')
         });
         if (item.hasClassName('multi') && typeof(PhenoTips.widgets.SuggestPicker) != 'undefined') {
           item._suggestPicker = new PhenoTips.widgets.SuggestPicker(item, item._suggest, {
@@ -175,7 +175,7 @@ var NodeMenu = Class.create({
           tooltip :false,
           fadeOnClear : false,
           timeout : 30000,
-          parentContainer : $('body')
+          parentContainer : $('genogram-canvas')
         });
         if (item.hasClassName('multi') && typeof(PhenoTips.widgets.SuggestPicker) != 'undefined') {
           item._suggestPicker = new PhenoTips.widgets.SuggestPicker(item, item._suggest, {
@@ -238,7 +238,7 @@ var NodeMenu = Class.create({
           resultParent : 'is_a',
           fadeOnClear : false,
           timeout : 30000,
-          parentContainer : $('body')
+          parentContainer : $('genogram-canvas')
         });
         if (item.hasClassName('multi') && typeof(PhenoTips.widgets.SuggestPicker) != 'undefined') {
           item._suggestPicker = new PhenoTips.widgets.SuggestPicker(item, item._suggest, {

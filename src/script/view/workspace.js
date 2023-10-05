@@ -15,7 +15,7 @@ var Workspace = Class.create({
     var me = this;
     this.canvas = new Element('div', {'id' : 'canvas'});
     this.workArea = new Element('div', {'id' : 'work-area'}).update(this.canvas);
-    $('body').update(this.workArea);
+    $('genogram-canvas').update(this.workArea);
     var screenDimensions = document.viewport.getDimensions();
     this.generateTopMenu();
     this.width = screenDimensions.width;
