@@ -7,7 +7,7 @@ module.exports = {
 
   output: {
     filename: 'pedigree.min.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public/app'),
   },
 
   externals: [
